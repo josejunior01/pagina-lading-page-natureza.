@@ -6,7 +6,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
     padding: 4rem;
-    background-color: #abff86;
+    background-color:#b8715fab;
 }
 .LO{
     display: flex;
@@ -31,8 +31,16 @@ header{
         transition: 0,05;
     }
     .sessao1{
-        padding: 20rem;
-        background-color:#abff86;
+        background-color:#b8715fab;
+        padding: 2rem;
+   
+    }
+    .sessao1 img{
+ width: 100%;
+        }
+        .sessao1 h1{
+        display: flex;
+            justify-content: center;
     }
     .sessao2{
         padding:20rem ;
