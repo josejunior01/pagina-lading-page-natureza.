@@ -4,102 +4,124 @@ padding: 0;
 font-size: 1.1em;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-header{
-    padding: 4rem;
-    background-color:#b8715fab;
+#menu-header{
+    background-color: rgba(32, 31, 31, 0.952);
+    padding: 2em;
 }
-.LO{
+#menu-header ul{
     display: flex;
-}
-.menu-header ul{
-    display: flex;
-    justify-content: center;
-    list-style: none;
     justify-content: end;
 }
-.menu-header li{
-    margin-right: 2em;
-    font-size: 0.6em;
+
+#menu-header li{
+    margin-left: 0.5em;
+    list-style: none;
 }
-.menu-header a{
-    color: black;
+#menu-header a{
     text-decoration: none;
-    cursor: pointer;
-    }
-    .menu-header a:hover{
-        color: rgb(13, 188, 211);
-        transition: 0,05;
-    }
-    .sessao1{
-        background-color:#b8715fab;
-        padding: 2rem;
+    color: black;
+    border-color: white;
+padding: 0.2em;
+padding-left: 0.5em;
+padding-right: 0.5em;
+cursor: pointer;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#menu-header a:hover{
+    border:0.1em solid black;
+    transition:0.5s;
+    color: white;
+}
+.GRO:last-child{
+    float: left;
+    color: white;
+}
+#box1{
+    padding: 8rem; 
+}
+#box1{
+    background-image: url(img/textura-groot.jpg);
+   width: 79.1%;
+   height: 50vh;
+    background-position: center;
+    background-size: cover;
+  
+}
+.titulo-1{
+margin: 3em;
+margin-left: 6em;
+color: white;
+}
+#box1 p{
+    font-size: 1.5em;
+    margin-right: 16em;
+    color: white;
+}
+
+/*aqui inicia a segunda box2*/
+#box2{
+    padding: 1em;
+    background-color: gray;
+ 
    
-    }
-    .sessao1 img{
+}
+.container-box2{
+    display: flex;
+    justify-content: space-around;
 
-        }
-        .sessao1 h1{
-        display: flex;
-            justify-content: center;
+}
+#box2 h1{
+    text-align: center;
+    margin: 0.1em;
+    font-size: 0.9em;
     }
-    #sessao2{
-        padding:1rem;
-     
-        background-color: #9aef90;  
+    #box2 hr{
+        width: 10em;
+    margin-left:20em;
+    
     }
+.container-box2 p{
+    text-align: center;
+}
+.div-img1{
+    margin: 2em;
+    width: 9em;
+    height: 15em;
 
-
-    .imagem1{
-        border: 2px solid black;
-        width: 20em;
-        height: 15em;
-      margin-left: 0.2em;
-      margin: 5em;
-     background-color: rgb(0, 255, 60);
-     text-align: center;
-    }
-    #sessao h1{
-       text-align: center;
-    }
+background-color: greenyellow;
+box-shadow: 7px 5px 5px rgb(69, 67, 67);
+/*fim da box2*/
+}
+.conteiner-box3{
+    height: 40vw;
+    background-color: greenyellow;
    
+}
+.conteiner-box3{
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-box3 img{
+
+    width: 25em;
+    height: 19.3em;
+    margin-right: 6em;
+    margin-bottom: 55px;
+}
+
+.conteiner2-box3 h1{
+display: flex;
+margin-left: 2.4em;
   
 
-
-
-
-
-
-
-
-
-
-
-
-    .sessao3{
-        padding: 20rem;
-        background-color:#abff86 ;
-    }
-
-
-
-
-
-
-
-
-
-
-
-    .sessao4{
-        padding: 20rem;
-        background-color:#abff86 ;
-    }
-
-
-
-
-
-    .hodape{
-        padding: 3rem;
-        background-color: #19e401;
-    }
+}
+.conteiner2-box3 hr {
+width: 5em;
+margin: 1em;
+margin-left: 2.5em;
+}
+.conteiner2-box3 p{
+margin-right: 5em;
+font-size: 0.7em;
+}
