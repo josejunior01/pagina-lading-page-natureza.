@@ -210,7 +210,7 @@ display: flex;
 
     #box1 {
         padding: 1rem;
-        width: 100%;
+        width: 90.9%;
         height: auto;
     }
 
@@ -254,6 +254,7 @@ display: flex;
     }
 
     .conteiner2-box3 h1 {
+        margin: 0.5em;
         margin-left: 2em;
         font-size: 1.5em;
     }
